@@ -4,7 +4,7 @@
 
 ul li a
 {
-color: white !important; 
+/* color: white !important;  */
 font-weight: 900;
 }
 ul li a:hover{
@@ -23,7 +23,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .navbar-light .navbar-toggler{
-    border: 1px solid red;
+        border: 1px solid red;
 }
 
 .navbar-light.navbar-toggler:focus
@@ -51,3 +51,6 @@ footer{
     background-color: beige;
 }
 
+.d-flex .justify-content-center .justify-content-lg-between .p-4 .border-bottom{
+    border: 1px solid red;
+}
