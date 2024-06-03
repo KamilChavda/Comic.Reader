@@ -4,7 +4,7 @@
 
 ul li a
 {
-/* color: white !important;  */
+color: white !important;    
 font-weight: 900;
 }
 ul li a:hover{
@@ -51,6 +51,7 @@ footer{
     background-color: beige;
 }
 
-.d-flex .justify-content-center .justify-content-lg-between .p-4 .border-bottom{
-    border: 1px solid red;
+.btn-primary{
+    background-color: red;
+    border: red;
 }
