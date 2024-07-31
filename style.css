@@ -6,14 +6,11 @@ ul li a
 {
 color: white !important;    
 font-weight: 900;
+text-decoration: none;
 }
 ul li a:hover{
-    background-color: red;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-bottom: 1px solid red;
+    
 }
 
 .navbar-light .navbar-toggler-icon
@@ -21,9 +18,11 @@ ul li a:hover{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28225, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
 }
-
+.main-logo{
+    color: red;
+}
 .navbar-light .navbar-toggler{
-        border: 1px solid red;
+        border: 1px solid green;
 }
 
 .navbar-light.navbar-toggler:focus
@@ -52,10 +51,27 @@ footer{
 }
 
 .btn-primary{
-    background-color: red;
+    background-color:  green;
     border: red;
 }
 .card{
     /* border: 1px solid red; */
     border-radius: 20px;
+}
+.bct{
+    border: none;
+    background-color: #F5F5DC; 
+    font-weight: 900;
+
+}
+.bct a{
+    
+    color: red !important;
+    text-decoration: none;
+}
+.bct:hover{
+    border-bottom: 1px solid red !important;
+}
+.wes{
+    background-color: #545155;
 }
